@@ -1,6 +1,0 @@
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\rh.yosra\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\rh.yosra\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
-INFO:root:Texte-à-parole (pyttsx3) a pris 3.59 secondes
-INFO:root:Transcription audio a pris 1.33 secondes
-INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-INFO:root:Appel API Groq a pris 1.17 secondes
