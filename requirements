@@ -1,0 +1,10 @@
+groq
+SpeechRecognition
+pyttsx3
+sounddevice
+soundfile
+
+requests
+
+set  GROQ_API_KEY=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
+ 
