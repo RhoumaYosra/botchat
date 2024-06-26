@@ -8,6 +8,12 @@ from groq import Groq
 import logging
 
 # Configure logging for latency analysis
+# Configuration pour utiliser le périphérique audio 'dummy'
+sd.default.device = 'dummy'
+
+# Vérifier si le périphérique 'dummy' est pris en charge
+print(sd.query_devices())
+
 logging.basicConfig(level=logging.INFO)
 
 class CallBotConsole:
