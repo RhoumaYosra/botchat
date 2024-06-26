@@ -27,7 +27,8 @@ class CallBotConsole:
         for voice in voices:
             if not voice.languages:
                 continue
-            if 'fr' in voice.languages[0].lower():  # Check for French voice
+            languages = [lang.decode() if isinstance(lang, bytes) else lang for lang in voice.languages]
+            if any('fr' in lang.lower() for lang in languages):  # Check for French voice
                 engine.setProperty('voice', voice.id)
                 break
         engine.setProperty('rate', 150)  # Slow down speech rate
